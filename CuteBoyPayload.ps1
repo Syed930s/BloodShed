@@ -1,4 +1,4 @@
-$BinPath     = "C:\mbr.bin"
+$BinPath     = "C:\bloodshed.bin"
 $DiskNumber  = 0
 
 $mbrData = [System.IO.File]::ReadAllBytes($BinPath)
